@@ -65,13 +65,7 @@ Amazon_Prime_TV_Shows_and_Review_Analysis/
 - Most-reviewed and highest-rated shows
 - Correlation between number of reviews and average star rating
 
-### 4. 💬 Sentiment Analysis (NLP)
-- Text preprocessing: tokenization, stopword removal, lemmatization
-- Sentiment scoring using VADER / TextBlob
-- Positive, negative, and neutral review classification
-- Word clouds for positive and negative reviews
-
-### 5. 📅 Trend Analysis
+### 4. 📅 Trend Analysis
 - Year-over-year growth in content additions
 - Genre popularity trends across decades
 
@@ -83,8 +77,7 @@ Amazon_Prime_TV_Shows_and_Review_Analysis/
 |---|---|
 | Language | Python 3.x |
 | Data Manipulation | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn, Plotly, WordCloud |
-| NLP | NLTK, TextBlob / VADER |
+| Visualization | Matplotlib, Seaborn, Plotly
 | Environment | Jupyter Notebook |
 
 ---
@@ -121,7 +114,6 @@ Run all cells sequentially. Ensure the dataset files are placed in the correct d
 
 - 📊 Genre distribution bar chart
 - 🗺️ Country-wise content heatmap
-- ☁️ Word clouds from positive and negative reviews
 - 📉 Sentiment score distribution
 - 📅 Content release timeline
 
@@ -132,7 +124,7 @@ Run all cells sequentially. Ensure the dataset files are placed in the correct d
 - **Drama** and **Comedy** are the most prevalent genres on Amazon Prime Video.
 - Content additions saw a sharp increase post-2015, reflecting Prime's aggressive expansion.
 - A significant portion of user reviews are **positive**, with sentiment scores skewing favorably.
-- Shows from the **United States** dominate the catalog, but international content (India, UK) is rapidly growing.
+- All the shows are from the **United States**
 - High review volume does not always correlate with high average ratings.
 
 ---
@@ -141,12 +133,6 @@ Run all cells sequentially. Ensure the dataset files are placed in the correct d
 
 **Siddharth Purswani**  
 📧 [GitHub Profile](https://github.com/siddharthpurswani)
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
